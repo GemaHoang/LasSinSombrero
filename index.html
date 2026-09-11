@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Las Sinsombrero · La generación olvidada del 27</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Iconos SVG (sprite) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="icon-hat-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="12" cy="16.5" rx="9.5" ry="2.1"/>
+      <path d="M8 16.2 C8 11 8.8 6.5 12 6.5 C15.2 6.5 16 11 16 16.2"/>
+      <path d="M8.6 12.6 h6.8"/>
+    </symbol>
+    <symbol id="icon-hat-hero" viewBox="0 0 220 130" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="110" cy="96" rx="86" ry="13"/>
+      <path d="M66 92 C66 40 82 16 110 16 C138 16 154 40 154 92"/>
+      <path d="M72 60 h76"/>
+    </symbol>
+    <symbol id="icon-pen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3 L16 7 L8.5 18 L5 19 L6 15.5 Z"/>
+      <path d="M12 3 L16 7"/>
+      <path d="M9.6 15 L12 12.5"/>
+    </symbol>
+    <symbol id="icon-brush" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 4 C17.5 4 19.5 6 19.5 8.3 C19.5 10.4 17.8 11.3 16.4 11.9 L10.5 14.4"/>
+      <path d="M10.5 14.4 C11.6 15.6 11.6 17.4 10.5 18.5 C9.3 19.7 7.2 19.7 5.6 19 C6.5 17.6 6 16.2 5 15.5 C6.4 13.6 8.7 13 10.5 14.4 Z"/>
+    </symbol>
+    <symbol id="icon-chisel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 6.5 L10 12.5"/>
+      <path d="M8 4.5 L14.5 11 L11.5 14 L5 7.5 Z"/>
+      <path d="M11.5 14 L18.5 21"/>
+    </symbol>
+    <symbol id="icon-mask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 9.5 C4 6 7.5 4 12 4 C16.5 4 20 6 20 9.5 C20 15 16 19.5 12 19.5 C8 19.5 4 15 4 9.5 Z"/>
+      <path d="M8.5 10.2 h1.6 M13.9 10.2 h1.6"/>
+      <path d="M9 14.5 C10 15.6 14 15.6 15 14.5"/>
+    </symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5.5 C10.3 4.4 7.8 4 5 4 V17.5 C7.8 17.5 10.3 17.9 12 19"/>
+      <path d="M12 5.5 C13.7 4.4 16.2 4 19 4 V17.5 C16.2 17.5 13.7 17.9 12 19"/>
+      <path d="M12 5.5 V19"/>
+    </symbol>
+  </svg>
+
+  <!-- Barra superior -->
+  <div class="topbar">
+    <div class="topbar-inner wrap">
+      <a class="brand" href="#top"><svg><use href="#icon-hat-nav"/></svg> Las Sinsombrero</a>
+      <nav>
+        <a href="#gesto">El gesto</a>
+        <a href="#contexto">Contexto</a>
+        <a href="#listado">Listado</a>
+      </nav>
+    </div>
+  </div>
+
+  <span id="top"></span>
+
+  <!-- Hero -->
+  <div class="hero-wrap">
+    <div class="wrap">
+      <div class="hero">
+        <div class="hero-main">
+          <p class="eyebrow" style="margin-bottom:8px;">Generación del 27 · Madrid, 1927–1936</p>
+          <h1>Las Sin<br>Sombrero</h1>
+          <p class="lead">
+            Pintoras, poetas, filósofas, escultoras y escenógrafas que crearon la vanguardia
+            española — y que los manuales dejaron fuera de la fotografía de grupo. Mientras Lorca,
+            Alberti, Dalí y Buñuel entraban en el canon, ellas compartieron aulas, tertulias y
+            revistas con ellos. <strong>Esta web reúne sus fichas</strong>, con su oficio, sus
+            fechas, sus obras y las fuentes que lo prueban.
+          </p>
+        </div>
+        <div class="hero-side">
+          <span class="hero-chip">Homenaje editorial</span>
+          <p class="eyebrow hero-tag">Retrato de época del círculo de mujeres que crearon la vanguardia</p>
+          <div class="hero-fig">
+            <svg class="hero-hat"><use href="#icon-hat-hero"/></svg>
+            <img class="hero-photo" src="assets/cabecera.jpg"
+                 alt="Reunión de mujeres del Lyceum Club Femenino (Madrid, años 30)"
+                 onerror="this.remove()" />
+            <span class="fig-cap">Mujeres del Lyceum Club Femenino · Madrid, años 30</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marquesina -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Generación del 27</span><span>Ellas también estuvieron</span><span>Madrid 1927–1936</span><span>Recuperadas del olvido</span>
+      <span>Generación del 27</span><span>Ellas también estuvieron</span><span>Madrid 1927–1936</span><span>Recuperadas del olvido</span>
+    </div>
+  </div>
+
+  <!-- Navegación rápida -->
+  <nav class="quicknav wrap">
+    <a href="#gesto">01 El gesto</a>
+    <a href="#contexto">02 Contexto</a>
+    <a href="#listado">03 El listado</a>
+  </nav>
+
+  <main class="wrap main-pad">
+
+    <!-- El gesto -->
+    <section id="gesto" class="section-frame">
+      <div class="section-head"><span>01 / Origen del nombre</span><span>Puerta del Sol, Madrid</span></div>
+      <div class="section-body">
+        <h2>El gesto que las nombró</h2>
+        <div class="gesture-grid">
+          <div class="prose">
+            <p>A mediados de los años veinte, llevar la cabeza descubierta por la calle era, para una mujer, un pequeño acto de insubordinación: el sombrero era una prenda obligatoria del decoro público, no un accesorio. Cruzar la Puerta del Sol sin él podía costar insultos y hasta pedradas.</p>
+            <p>Eso hicieron Maruja Mallo y Margarita Manso, junto a Federico García Lorca y Salvador Dalí, compañeros de la Real Academia de San Fernando y la Residencia de Estudiantes: se quitaron el sombrero en plena calle como quien firma un manifiesto. Nueve décadas más tarde, ese gesto minúsculo dio título al proyecto <em>Las Sinsombrero</em> (RTVE, 2015) y al libro de Tània Balló, que rescataron del olvido a toda una generación de creadoras.</p>
+          </div>
+          <div class="callout">
+            «Nos quitamos el sombrero para provocar, para epatar al público. Nos llovieron insultos y alguna piedra.»
+            <cite>Maruja Mallo sobre el episodio de la Puerta del Sol, Madrid</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contexto / línea de tiempo -->
+    <section id="contexto" class="section-frame">
+      <div class="section-head"><span>02 / Línea de tiempo</span><span>1915 – 2015</span></div>
+      <div class="section-body">
+        <h2>Del aula a la desmemoria</h2>
+        <p class="count-note">Ocho fechas que enmarcan cómo se formó el grupo, por qué desapareció de la historia oficial y cómo empezó a recuperarse. <em>Desliza la línea para recorrerla →</em></p>
+        <div class="timeline">
+          <div class="tl-row"><span class="tl-year">1915</span><p>Se funda en Madrid la Residencia de Señoritas, primer centro que ofrece educación superior a mujeres y hogar de varias de ellas.</p></div>
+          <div class="tl-row"><span class="tl-year">c. 1923–25</span><p>Maruja Mallo y Margarita Manso se quitan el sombrero en la Puerta del Sol junto a Lorca y Dalí: el gesto que, décadas después, da nombre al grupo.</p></div>
+          <div class="tl-row"><span class="tl-year">1927</span><p>Un grupo de poetas rinde homenaje a Góngora en el Ateneo de Sevilla. La posteridad bautiza el círculo como «Generación del 27» — sin incluirlas a ellas en el retrato.</p></div>
+          <div class="tl-row"><span class="tl-year">1931</span><p>La Segunda República amplía derechos civiles, laborales y educativos para las mujeres españolas.</p></div>
+          <div class="tl-row"><span class="tl-year">1932</span><p>Marga Gil Roësset se quita la vida a los 24 años; su obra escultórica queda truncada en plena madurez.</p></div>
+          <div class="tl-row"><span class="tl-year">1936–39</span><p>La Guerra Civil dispersa al grupo: exilio, cárcel, censura o muerte prematura interrumpen sus trayectorias.</p></div>
+          <div class="tl-row"><span class="tl-year">1939–75</span><p>La dictadura impone décadas de olvido institucional sobre su obra, agravado por el exilio y la falta de reediciones.</p></div>
+          <div class="tl-row"><span class="tl-year">2015</span><p>RTVE emite <em>Las Sinsombrero</em>, el proyecto documental que devuelve sus nombres al público general.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Listado -->
+    <section id="listado" class="section-frame">
+      <div class="section-head"><span>03 / El listado</span><span id="headCount">Fichas</span></div>
+      <div class="section-body">
+        <h2>Las creadoras</h2>
+        <p class="count-note">Cada ficha reúne la biografía de la creadora, sus obras destacadas y las fuentes. Haz clic en una tarjeta para abrirla.</p>
+
+        <section class="grid" id="grid" aria-label="Listado de fichas"></section>
+
+        <p class="empty" id="emptyState" hidden>
+          No se han encontrado resultados. Prueba con otra búsqueda o filtro.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-repeat">Las Sinsombrero</div>
+      <div class="foot-grid">
+        <p>Homenaje a las mujeres de la Generación del 27 que escribieron, pintaron, esculpieron y pensaron la vanguardia española.</p>
+        <p class="colophon">Contenido basado en <em>Las Sinsombrero</em> de Tània Balló (2016) · Imágenes: Wikimedia Commons</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vista de detalle -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalName">
+      <button class="modal__close" type="button" data-close aria-label="Cerrar">&times;</button>
+      <div class="modal__content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
