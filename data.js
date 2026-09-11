@@ -263,24 +263,34 @@ const sinsombrero = [
     disciplinas: ["Pintura"],
     iniciales: "MM",
     color: "#8d5524",
-    imagen: "https://commons.wikimedia.org/wiki/Special:FilePath/Margarita_Manso_3V.jpg?width=600",
+    imagen: "assets/manso/retrato.jpg",
     bio: "Pintora protagonista del gesto que dio nombre a las Sinsombrero.",
     bioLarga: "Estudiante de la Escuela de Bellas Artes de San Fernando, Margarita Manso frecuentaba la Residencia de Estudiantes y sus círculos artísticos, donde conoció a Lorca, Dalí y Maruja Mallo. Con Lorca y Maruja Mallo protagonizó el gesto de quitarse el sombrero en plena Puerta del Sol —el acto simbólico que da nombre al grupo—. Muy próxima al poeta, que le dedicó 'Muerto de amor' del 'Romancero gitano', su figura permaneció durante décadas como un nombre sin rostro hasta que el hispanista Ian Gibson reconstruyó su historia en 1986 a partir de las confidencias de Dalí. Se casó con el pintor falangista Alfonso Ponce de León, fusilado por milicianos republicanos en septiembre de 1936, y en 1940 con Enrique Conde Gargollo. Murió de cáncer en 1960, en gran parte olvidada.",
-    obras: ["Obra pictórica dispersa y en gran parte perdida"],
+    obras: ["La caricia (c. 1925), acuarela sobre cartón", "La Campesina (c. 1930)", "La carta, acuarela sobre papel", "Retrato del Dr. Conde (1944)"],
     cita: "Federico García Lorca le dedicó su poema «Muerto de amor».",
     bioParrafos: [
-      "Nacida en Valladolid, hija de una modista y de un gestor de la fundición Gabilondo que murió cuando ella tenía apenas unos años, ingresó en 1923, con quince años, en la Real Academia de San Fernando, donde fue alumna de Julio Romero de Torres y entabló una estrecha amistad con Maruja Mallo, que la introdujo en el círculo íntimo de Salvador Dalí y Federico García Lorca.",
-      "Protagonizó junto a Mallo el episodio del sombrero en la Puerta del Sol que da nombre al grupo. Con el pintor Alfonso Ponce de León —colaborador de Lorca como escenógrafo de La Barraca— formó pareja durante seis años sin casarse, algo entonces escandaloso: convivieron abiertamente, viajaron juntos por Europa y en 1930 residieron una temporada en París, donde conocieron a Picasso y entraron en contacto con la Escuela de París. Se casaron en 1933, el mismo año en que Alfonso se afilió a Falange Española; su giro ideológico, cada vez más alejado de los valores republicanos, fue reduciendo el círculo social y la presencia pública de Margarita.",
-      "Ponce de León fue fusilado al comenzar la Guerra Civil. Tras la contienda, Margarita se alejó por completo de los círculos artísticos que había frecuentado en su juventud; apenas se conservan obras suyas, y su figura sigue siendo una de las más difíciles de documentar de todo el grupo."
+      "Nacida en Valladolid el 24 de noviembre de 1908, fue hija de Carmen Dominica Robledo Daguerre, modista de alta costura de origen francés, y de Luis Manso López, jefe de oficina en los Talleres de Fundición Gabilondo; tuvo dos hermanas, Carmen y María Luisa. En 1924, con quince años, ingresó en la Escuela Especial de Pintura, Escultura y Grabado de la Real Academia de San Fernando, donde coincidió con Salvador Dalí y con Maruja Mallo, con quien trabó una estrecha amistad. A través de ellos conoció a Federico García Lorca, que se convirtió en uno de sus íntimos y que en 1928 le dedicó el poema «Muerto de amor» del <em>Romancero gitano</em>, publicado por primera vez en la <em>Revista de Occidente</em>.",
+      "Protagonizó junto a Mallo y Lorca el episodio del sombrero en la Puerta del Sol que da nombre al grupo. En 1927 conoció, a través de Lorca, al pintor Alfonso Ponce de León —escenógrafo y figurinista de La Barraca—, del que se enamoró; juntos viajaron a París en 1930, donde residieron varios meses en el círculo de artistas españoles como Picasso o Bores. La pareja se casó el 9 de diciembre de 1933 en la iglesia de Santa Bárbara de Madrid. Al comenzar la Guerra Civil, Lorca fue fusilado en agosto de 1936 y, un mes después, Ponce de León —afiliado a Falange Española— fue detenido, torturado y asesinado por milicianos, lo que sumió a Margarita, viuda con apenas 27 años, en una profunda depresión.",
+      "En 1939 su hermana Carmen, farmacéutica vinculada a la causa republicana, se exilió a México con su marido, y ese mismo año murió su hermana menor, María Luisa. En 1940 Margarita volvió a casarse, con el médico Enrique Conde Gargollo, con quien tuvo tres hijos; a partir de entonces su pasado artístico quedó olvidado y en secreto incluso para su familia. Falleció con solo 51 años, de un cáncer de mama, el 28 de marzo de 1960, y fue enterrada en el cementerio Sacramental de San Justo. Apenas se conservan obras suyas, lo que la convierte en una de las figuras más difíciles de documentar del grupo."
     ],
     datos: {
-      "Formación": "Real Academia de San Fernando (desde 1923), alumna de Julio Romero de Torres",
-      "Círculo": "Maruja Mallo · Dalí · Lorca",
-      "Pareja": "Alfonso Ponce de León, pintor — pareja desde 1929, casados en 1933, fusilado en 1936",
+      "Formación": "Escuela Especial de Pintura, Escultura y Grabado, Real Academia de San Fernando (desde 1924)",
+      "Círculo": "Maruja Mallo · Dalí · Lorca (que le dedicó «Muerto de amor»)",
+      "Primer matrimonio": "Alfonso Ponce de León, pintor falangista — pareja desde 1927, casados en 1933, asesinado en 1936",
+      "Segundo matrimonio": "Enrique Conde Gargollo, médico (1940); tres hijos",
       "Legado": "Muy pocas obras conservadas; figura difícil de documentar"
     },
+    galeria: [
+      { src: "assets/manso/la-caricia-1925.jpg", titulo: "La caricia (c. 1925), acuarela sobre cartón — Colección Enrique Conde Manso" },
+      { src: "assets/manso/la-campesina-1930.jpg", titulo: "La Campesina (c. 1930) — Colección M. Conde Manso" },
+      { src: "assets/manso/la-carta.jpg", titulo: "La carta, acuarela sobre papel — Colección M. Conde Manso" },
+      { src: "assets/manso/retrato-dr-conde-1944.jpg", titulo: "Retrato del Dr. Conde (1944) — Archivo Ruiz Vernacci, IPCE" },
+      { src: "assets/manso/retrato-1927.jpg", titulo: "Retrato de Margarita Manso, Madrid (c. 1927) — Colección M. Conde Manso" },
+      { src: "assets/manso/estudio-1929.jpg", titulo: "Retrato de estudio de Margarita Manso, Madrid (1929) — Colección M. Conde Manso" }
+    ],
     fuentes: [
       { label: "Leer.es, proyecto Las Sinsombrero: «Margarita Manso Robledo»", href: "https://leer.es/proyectos/las-sinsombrero/vida-y-obra/margarita-manso-robledo/" },
+      { label: "Tal día como hoy: «Margarita Manso (1908-1960)» (Diana Larrea)", href: "https://www.taldiacomohoy.es/post/margarita-manso-1908-1960" },
       { label: "VEIN Magazine: «Poemas, pinturas y rebeldía»", href: "https://vein.es/poemas-pinturas-y-rebeldia-margarita-manso/" },
       { label: "Tània Balló, <em>Las Sinsombrero</em> (2016), capítulo dedicado a Margarita Manso" }
     ],
