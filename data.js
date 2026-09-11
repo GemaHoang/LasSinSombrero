@@ -229,26 +229,36 @@ const sinsombrero = [
     disciplinas: ["Poesía", "Música", "Cine"],
     iniciales: "JT",
     color: "#457b9d",
-    imagen: "https://commons.wikimedia.org/wiki/Special:FilePath/Josefina_de_la_Torre_Millares.jpg?width=600",
+    imagen: "assets/josefina/retrato.jpg",
     bio: "Poeta, soprano y actriz; talento multiple de las islas.",
     bioLarga: "Nacida en Las Palmas de Gran Canaria en el seno de una familia culta de músicos y artistas, Josefina de la Torre fue poeta, novelista, soprano, compositora, actriz de teatro y cine, actriz de doblaje, columnista y guionista: la mujer de vanguardia más polifacética. Escribía poemas desde los siete años —un homenaje a Benito Pérez Galdós— y publicaba en revistas insulares desde 1914. Hermana del cineasta Claudio de la Torre, fue —junto a Ernestina de Champourcín— una de las dos únicas mujeres incluidas en la antología de Gerardo Diego de 1934, y dedicó un soneto a Rafael Alberti. También escribió novelas de misterio bajo el seudónimo Laura de Cominges. A diferencia de sus coetáneas, no se exilió durante la guerra, lo que paradójicamente favoreció su olvido durante el franquismo. Murió en 2002.",
-    obras: ["Versos y estampas (1927)", "Poemas de la isla (1930)", "Marzo incompleto", "Memorias de una estrella"],
-    cita: "«¡Amigos que de mí hicisteis nombre!»",
+    obras: ["Versos y estampas (1927)", "Poemas de la isla (1930)", "Marzo incompleto (1968)", "Oculta palabra cierta (antología, 2020)", "Novelas policiacas como Laura de Cominges"],
+    cita: "«No quiero mirar la orilla, / no quiero mirar el mar, / que me voy quedando sola.»",
+    citaFuente: "Josefina de la Torre, 1927",
     bioParrafos: [
-      "Nacida en Las Palmas de Gran Canaria, benjamina de seis hermanos de una familia de artistas de la burguesía culta canaria, se formó musicalmente desde niña —tocaba piano, guitarra y violín— y ya en 1914 componía sus primeros versos, dedicados a Benito Pérez Galdós. En 1924 viajó por primera vez a Madrid gracias a su hermano Claudio de la Torre, Premio Nacional de Literatura ese mismo año, y a través de él conoció a Buñuel, Dalí, Alberti, Lorca y Cernuda.",
-      "En 1927 publicó su primer libro, <em>Versos y estampas</em>, como octavo suplemento de la revista malagueña <em>Litoral</em>, con prólogo de Pedro Salinas, quien acuñó para ella el término «muchacha-isla». Alternó la literatura con una carrera como actriz de cine y teatro y cantante de zarzuela, actividad que mantuvo hasta bien entrada la democracia.",
-      "En 1980 murió su marido, Ramón Corroto, y tres años después hizo su última aparición televisiva en la serie <em>Anillos de oro</em>. Sumida en la tristeza, decidió un retiro voluntario de la vida pública que duraría veinte años, durante los cuales siguió escribiendo poesía en la soledad de su piso de Madrid sin intención de publicarla. Entre esos versos inéditos se encuentra «Mis amigos de entonces», una de las odas más desgarradoras dedicadas a los compañeros de su generación que ya habían muerto. Una antología de su obra, a cargo de Lázaro Santana, se publicó por fin en 1988."
+      "Nacida el 25 de septiembre de 1907 en Las Palmas de Gran Canaria, fue la menor de los seis hijos de Bernardo de la Torre y Cominges y de Francisca Millares Cubas, una familia de la burguesía culta y liberal canaria con hondas raíces artísticas —su tatarabuelo fue organista mayor de la catedral—. Se formó musicalmente desde niña —tocaba piano, guitarra y violín— y ya en 1914 componía sus primeros versos, dedicados a Benito Pérez Galdós. En 1924 viajó por primera vez a Madrid gracias a su hermano Claudio de la Torre, Premio Nacional de Literatura ese mismo año, y a través de él conoció a Buñuel, Dalí, Alberti, Lorca y Cernuda.",
+      "En 1927 publicó su primer libro, <em>Versos y estampas</em>, como octavo suplemento de la revista malagueña <em>Litoral</em>, con prólogo de Pedro Salinas, quien acuñó para ella el término «muchacha-isla». Fue una artista total —«la estrella total», la llamaba la prensa—: solista de canto con la Orquesta Sinfónica de Madrid, actriz de teatro, radio, cine y televisión, y actriz de doblaje que prestó su voz en español a Marlene Dietrich, Dorothea Wieck o Martine Carol. Escribió además audaces novelas románticas y policiacas —firmadas como Laura de Cominges— que dieron vida a algunas de las primeras mujeres policía de la literatura española. Vivió amores intensos y difíciles, entre ellos con el escritor Juan Chabás y con Luis Buñuel.",
+      "No se exilió tras la Guerra Civil: sobrevivió en Las Palmas y en 1939 regresó a un Madrid de hambre y penuria, donde tuvo que ganarse la vida en los más diversos oficios artísticos durante treinta y dos años lejos de su isla. En 1980 murió su segundo marido, Ramón Corroto, y tres años después hizo su última aparición televisiva en la serie <em>Anillos de oro</em>; después se retiró voluntariamente de la vida pública durante dos décadas, sin dejar de escribir poesía. En 2000 fue nombrada académica honoraria de la Academia Canaria de la Lengua y, en 2002, recibió la Cruz de la Orden de las Islas Canarias y fue declarada Hija Predilecta de Las Palmas. Murió en Madrid el 12 de julio de 2002. Su archivo personal —el Fondo Josefina de la Torre, custodiado en la Casa-Museo Pérez Galdós— ha permitido rescatar poemas y novelas inéditos."
     ],
     datos: {
-      "Formación": "Musical (piano, violín, guitarra) desde la infancia",
+      "Formación": "Musical (piano, violín, guitarra) desde la infancia · solista de la Orquesta Sinfónica de Madrid",
       "Círculo": "Introducida por su hermano Claudio de la Torre en la vanguardia madrileña (1924)",
-      "Obras destacadas": "Versos y estampas (1927), prólogo de Pedro Salinas",
-      "Otras facetas": "Actriz de cine y teatro · cantante de zarzuela",
-      "Últimos años": "Retiro voluntario de veinte años tras enviudar (1980) · antología de Lázaro Santana (1988)"
+      "Obras destacadas": "Versos y estampas (1927), prólogo de Pedro Salinas · Poemas de la isla (1930)",
+      "Otras facetas": "Actriz de teatro, radio, cine y TV · dobladora (Marlene Dietrich) · novelista como Laura de Cominges",
+      "Reconocimientos": "Académica honoraria de la Academia Canaria de la Lengua (2000) · Hija Predilecta de Las Palmas y Cruz de la Orden de las Islas Canarias (2002)"
     },
+    galeria: [
+      { src: "assets/josefina/cine.jpg", titulo: "Josefina de la Torre, «la estrella total», en sus años de actriz de cine" },
+      { src: "assets/josefina/teatro.jpg", titulo: "En el camerino: su faceta como actriz de teatro y radio" },
+      { src: "assets/josefina/marzo-incompleto.jpg", titulo: "Marzo incompleto (colección San Borondón), poemario" },
+      { src: "assets/josefina/partitura-la-orilla.jpg", titulo: "Partitura sobre sus versos: «No quiero mirar la orilla»" },
+      { src: "assets/josefina/pueblo-canario.jpg", titulo: "Josefina de la Torre en el Pueblo Canario (Las Palmas)" }
+    ],
     fuentes: [
       { label: "RAH, DB-e: «Josefina de la Torre Millares»", href: "https://dbe.rah.es/biografias/17788/josefina-de-la-torre-millares" },
-      { label: "Academia Canaria de la Lengua: semblanza", href: "https://portal.academiacanarialengua.org/archipielago-letras/josefina-de-la-torre/" },
+      { label: "Sitio oficial: josefinadelatorre.com", href: "https://josefinadelatorre.com/" },
+      { label: "Altaïr Magazine: «Josefina de la Torre. Una biografía» (Marina Patrón Sánchez)", href: "https://www.altairmagazine.com/voces/josefina-de-la-torre/" },
+      { label: "Biblioteca ULPGC / Memoria digital de Canarias: «La escritora canaria Josefina de la Torre»", href: "https://biblioteca.ulpgc.es/blogs/digitaliza/2024/02/la-escritora-canaria-josefina-de-la-torre" },
       { label: "Tània Balló, <em>Las Sinsombrero</em> (2016), capítulo dedicado a Josefina de la Torre" }
     ],
     enlace: "https://es.wikipedia.org/wiki/Josefina_de_la_Torre"
